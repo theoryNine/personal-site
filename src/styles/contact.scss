@@ -9,6 +9,10 @@
     .contact-form {
         width: 49%;
 
+        @media (max-width: 1000px) {
+            width: 95%;
+        }
+
         .form-item {
             display: flex;
             flex-direction: column;

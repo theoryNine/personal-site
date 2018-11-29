@@ -305,6 +305,9 @@ section {
 
 .contact .contact-form {
   width: 49%; }
+  @media (max-width: 1000px) {
+    .contact .contact-form {
+      width: 95%; } }
   .contact .contact-form .form-item {
     display: flex;
     flex-direction: column; }
