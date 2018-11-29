@@ -8,7 +8,8 @@
       justify-content: space-around;
       list-style-type: none;
       margin: 0;
-      padding-left: 0; }
+      padding-left: 0;
+      padding-right: 0; }
       .navigation .nav-bar ul a {
         text-transform: uppercase;
         letter-spacing: 0.2rem;
@@ -23,6 +24,6 @@
           padding: 15px 0;
           text-align: center; }
 
-@media (max-width: 450px) {
+@media (max-width: 975px) {
   .navigation {
     display: none; } }

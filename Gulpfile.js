@@ -24,7 +24,7 @@ gulp.task('copyScripts', function() {
 
 /* Copy media files */
 gulp.task('copyMedia', function() {
-  return gulp.src('./src/media/**.*')
+  return gulp.src('./src/assets/media/**.*')
   .pipe(gulp.dest('./dist/media'));
 });
 
