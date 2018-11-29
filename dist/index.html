@@ -6,7 +6,7 @@
   <title>Ansel Colvin | Front End Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Professional website of Ansel Colvin, Front End Developer">
-  <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+  <!-- <link rel="icon" type="image/png" href="assets/images/favicon.ico"> -->
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dzhitl" type="text/css"/>
 </head>
@@ -221,25 +221,24 @@
         <div class="form-map">
           <div class="contact-form">
             <form action="form-processing.php" method="post">
-              <div>
+              <div class="form-item">
                 <label for="name">Name</label>
                 <input type="text" name="user_name">
               </div>
-              <div>
+              <div class="form-item">
                 <label for="mail">E-mail Address <span class="fail">(required)</span></label>
                 <input type="email" name="user_email" required>
               </div>
-              <div>
+              <div class="form-item">
                 <label for="msg">Message <span class="fail">(required)</span></label>
                 <textarea name="user_message" required></textarea>
               </div>
               <div class="form-buttons">
-                <button type="submit"><em>Submit</em></button>
-                <button type="reset"><em>Clear</em></button>
+                <button type="submit">Submit</button>
               </div>
             </form>
           </div>
-          <div class="map">
+          <!-- <div class="map">
             <div id="map">
               <script>
                 function initMap() {
@@ -255,12 +254,8 @@
                 }
               </script>
             </div>
+          </div> -->
           </div>
-          </div>
-        </div>
-        <div class="social-bar">
-          <a href="https://www.linkedin.com/in/anselcolvin/" target="_blank"><div class="social linkedin"><i class="fa fa-linkedin" aria-hidden="false"></i></div></a>
-          <a href="https://gitlab.com/anselcolvin" target="_blank"><div class="social gitlab"><i class="fa fa-gitlab" aria-hidden="false"></i></div></a>
         </div>
       </div>
     </section>
@@ -278,7 +273,6 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfldS_8yLaRl1eav3HdUS1Xf-gFy6aiw4&callback=initMap">
   </script>
-  <script src="https://use.fontawesome.com/43580bea7c.js"></script>
   <script>smoothScroll.init('a[href^="#"]');</script>
 
 </body>

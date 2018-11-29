@@ -31,7 +31,7 @@
     a {
         button {
             background-color: var(--red);
-            border: 1px solid var(--borderColor);
+            border: 1px solid transparent;
             border-radius: 360px;
             color: var(--pureWhite);
             cursor: pointer;
