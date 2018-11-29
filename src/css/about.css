@@ -1,0 +1,16 @@
+.about .image {
+  border-left: 1px solid var(--borderColor);
+  background: url("../images/nyc.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  opacity: 0.7;
+  transition: 1s ease all; }
+  .about .image:hover {
+    opacity: 1; }
+
+.about .container {
+  display: flex; }
+
+.about .content {
+  width: 70%; }

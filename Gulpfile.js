@@ -30,13 +30,13 @@ gulp.task('copyMedia', function() {
 
 /* Copy image files */
 gulp.task('copyImages', function() {
-  return gulp.src('./src/images/**/**.*')
+  return gulp.src('./src/assets/images/**/**.*')
   .pipe(gulp.dest('./dist/images'));
 });
 
 /* Runs sass on a file and passes the resulting file into the css folder */
 gulp.task('sass', function () {
-  return gulp.src('./src/sass/**/*.scss')
+  return gulp.src('./src/styles/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./src/css'));
 });
@@ -51,7 +51,7 @@ gulp.task('minify-css', ['sass'], function() {
 
 /* Watches for changes and runs tasks accordingly */
 gulp.task('watch', ['minify-css'], function () {
-  gulp.watch('./src/sass/**/*.scss', ['sass']);
+  gulp.watch('./src/styles/**/*.scss', ['sass']);
   gulp.watch('./src/css/**/*.css', ['minify-css']);
   gulp.watch('./src/**/*.html', ['copyPages']);
   gulp.watch('./src/images/**/*.**', ['copyImages']);
