@@ -64,14 +64,14 @@
 .skills .vue-green {
   background-color: var(--vueGreen); }
 
-.certs ul {
+.skills .certs ul {
   justify-content: center; }
 
-.certs li {
+.skills .certs li {
   margin-left: auto;
   margin-right: auto; }
 
-.skill-name {
+.skills .skill-name {
   background-color: var(--navBg);
   width: 65%;
   margin-left: auto;
@@ -80,10 +80,10 @@
   padding-bottom: .5rem;
   border-radius: 5px; }
 
-.color-box {
+.skills .color-box {
   box-shadow: 0 0 10px var(--offWhite);
   opacity: .8; }
-  .color-box:hover {
+  .skills .color-box:hover {
     box-shadow: 0 0 20px var(--pureWhite);
     background-color: var(--lightTeal);
     text-shadow: 0 0 10px var(--pureWhite);

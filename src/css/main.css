@@ -7,14 +7,15 @@ a {
   color: var(--pureWhite); }
 
 body {
-  background-color: black;
+  background-color: var(--bodyBg);
   position: relative; }
 
 .container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1280px; }
+  max-width: 1280px;
+  background-color: black; }
   .container.boxed {
     border: 1px solid var(--borderColor);
     box-shadow: 0 0 10px var(--borderColor); }
@@ -41,6 +42,7 @@ section {
   --mainFont: var(--offWhite);
   --navBg: var(--darkTeal);
   --borderColor: var(--medTeal);
+  --bodyBg: rgb(12,6,17);
   --offWhite: rgb(204,208,213);
   --pureWhite: rgb(255,255,255);
   --lightTeal: rgb(39, 96, 112);
@@ -216,14 +218,14 @@ section {
 .skills .vue-green {
   background-color: var(--vueGreen); }
 
-.certs ul {
+.skills .certs ul {
   justify-content: center; }
 
-.certs li {
+.skills .certs li {
   margin-left: auto;
   margin-right: auto; }
 
-.skill-name {
+.skills .skill-name {
   background-color: var(--navBg);
   width: 65%;
   margin-left: auto;
@@ -232,10 +234,10 @@ section {
   padding-bottom: .5rem;
   border-radius: 5px; }
 
-.color-box {
+.skills .color-box {
   box-shadow: 0 0 10px var(--offWhite);
   opacity: .8; }
-  .color-box:hover {
+  .skills .color-box:hover {
     box-shadow: 0 0 20px var(--pureWhite);
     background-color: var(--lightTeal);
     text-shadow: 0 0 10px var(--pureWhite);
@@ -250,36 +252,36 @@ section {
     padding-left: 0;
     padding-right: 0; }
 
-.screenshots {
+.portfolio .screenshots {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 1rem; }
   @media (max-width: 450px) {
-    .screenshots {
+    .portfolio .screenshots {
       flex-direction: column; } }
-  .screenshots .screenshot {
+  .portfolio .screenshots .screenshot {
     opacity: .8;
     transition: .5s ease all;
     border: 1px solid var(--borderColor);
     box-shadow: 0 0 10px var(--borderColor);
     width: 47%; }
-    .screenshots .screenshot:hover {
+    .portfolio .screenshots .screenshot:hover {
       opacity: 1; }
-    .screenshots .screenshot img {
+    .portfolio .screenshots .screenshot img {
       height: 100%;
       width: 100%; }
     @media (max-width: 450px) {
-      .screenshots .screenshot {
+      .portfolio .screenshots .screenshot {
         width: 100%; } }
 
-.panel {
+.portfolio .panel {
   max-height: 0;
   overflow: hidden;
   transition: all .2s ease-out;
   width: 95%; }
 
-button.accordion {
+.portfolio button.accordion {
   background-color: var(--darkTeal);
   border: 1px solid var(--borderColor);
   color: var(--pureWhite);
@@ -289,7 +291,7 @@ button.accordion {
   margin-bottom: 1rem;
   width: 95%;
   transition: 1s ease all; }
-  button.accordion:hover {
+  .portfolio button.accordion:hover {
     background-color: var(--lightTeal);
     box-shadow: 0 0 90px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);

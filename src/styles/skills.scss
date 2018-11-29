@@ -86,37 +86,36 @@
     .vue-green {
         background-color: var(--vueGreen);
     }
-}
-
-.certs {
-    ul {
-        justify-content: center;
+    .certs {
+        ul {
+            justify-content: center;
+        }
+    
+        li {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
-
-    li {
+    
+    .skill-name {
+        background-color: var(--navBg);
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-radius: 5px;
     }
-}
-
-.skill-name {
-    background-color: var(--navBg);
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    border-radius: 5px;
-}
-
-.color-box {
-    box-shadow: 0 0 10px var(--offWhite);
-    opacity: .8;
-
-    &:hover {
-        box-shadow: 0 0 20px var(--pureWhite);
-        background-color: var(--lightTeal);
-        text-shadow: 0 0 10px var(--pureWhite);
-        opacity: 1;
+    
+    .color-box {
+        box-shadow: 0 0 10px var(--offWhite);
+        opacity: .8;
+    
+        &:hover {
+            box-shadow: 0 0 20px var(--pureWhite);
+            background-color: var(--lightTeal);
+            text-shadow: 0 0 10px var(--pureWhite);
+            opacity: 1;
+        }
     }
 }
