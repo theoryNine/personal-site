@@ -20,7 +20,8 @@ body {
     box-shadow: 0 0 10px var(--borderColor); }
 
 .container h3,
-.container p {
+.container p,
+.container ul {
   padding-left: 1rem;
   padding-right: 1rem; }
 

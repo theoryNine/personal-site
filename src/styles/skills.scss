@@ -1,0 +1,122 @@
+.skills {
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        li {
+            text-align: center;
+            opacity: .8;
+            transition: 1s ease all;
+            border-radius: 10px;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        width: 32%;
+        margin-bottom: 1rem;
+
+        @media (max-width: 1200px) {
+            width: 48%;
+        }
+
+        @media (max-width: 550px) {
+            width: 100%;
+        }
+    }
+
+    .orange {
+        background-color: var(--adobeOrange);
+    }
+    
+    .light-orange {
+        background-color: var(--htmlOrange);
+    }
+    
+    .css-blue {
+        background-color: var(--cssBlue);
+    }
+    
+    .yellow {
+        background-color: var(--jsYellow);
+    }
+    
+    .red {
+        background-color: var(--red);
+    }
+    
+    .pink {
+        background-color: var(--pink);
+    }
+    
+    .blue {
+        background-color: var(--jqueryBlue);
+    }
+    
+    .wp-blue {
+        background-color: var(--wpBlue);
+    }
+
+    .post-orange {
+        background-color: var(--postOrange);
+    }
+
+    .php-blue {
+        background-color: var(--phpBlue);
+    }
+
+    .sql-orange {
+        background-color: var(--sqlOrange);
+    }
+
+    .d3-orange {
+        background-color: var(--d3Orange);
+    }
+
+    .react-blue {
+        background-color: var(--reactBlue);
+    }
+
+    .vue-green {
+        background-color: var(--vueGreen);
+    }
+}
+
+.certs {
+    ul {
+        justify-content: center;
+    }
+
+    li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.skill-name {
+    background-color: var(--navBg);
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+}
+
+.color-box {
+    box-shadow: 0 0 10px var(--offWhite);
+    opacity: .8;
+
+    &:hover {
+        box-shadow: 0 0 20px var(--pureWhite);
+        background-color: var(--lightTeal);
+        text-shadow: 0 0 10px var(--pureWhite);
+        opacity: 1;
+    }
+}

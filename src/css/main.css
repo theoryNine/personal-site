@@ -20,7 +20,8 @@ body {
     box-shadow: 0 0 10px var(--borderColor); }
 
 .container h3,
-.container p {
+.container p,
+.container ul {
   padding-left: 1rem;
   padding-right: 1rem; }
 
@@ -42,7 +43,20 @@ section {
   --lightTeal: rgb(39, 96, 112);
   --darkTeal: rgb(9, 23, 23);
   --medTeal: rgb(64, 100, 104);
-  --red: rgb(162, 91, 96); }
+  --red: rgb(162, 91, 96);
+  --adobeOrange: rgb(239, 125, 56);
+  --htmlOrange: rgb(211, 87, 53);
+  --cssBlue: rgb(87,168,216);
+  --jsYellow: rgb(237, 218, 104);
+  --pink: rgb(184,91,138);
+  --jqueryBlue: rgb(43,105,108);
+  --wpBlue: rgb(19, 53, 165);
+  --phpBlue: rgb(138,147,187);
+  --postOrange: rgb(204,69,61);
+  --sqlOrange: rgb(234,150,62);
+  --d3Orange: rgb(231,138,88);
+  --reactBlue: rgb(129,216,227);
+  --vueGreen: rgb(100,181,135); }
 
 .navigation {
   margin-bottom: 1rem; }
@@ -131,3 +145,94 @@ section {
 
 .about .content {
   width: 70%; }
+
+.skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .skills ul li {
+    text-align: center;
+    opacity: .8;
+    transition: 1s ease all;
+    border-radius: 10px; }
+    .skills ul li:hover {
+      opacity: 1; }
+
+.skills a {
+  text-decoration: none;
+  width: 32%;
+  margin-bottom: 1rem; }
+  @media (max-width: 1200px) {
+    .skills a {
+      width: 48%; } }
+  @media (max-width: 550px) {
+    .skills a {
+      width: 100%; } }
+
+.skills .orange {
+  background-color: var(--adobeOrange); }
+
+.skills .light-orange {
+  background-color: var(--htmlOrange); }
+
+.skills .css-blue {
+  background-color: var(--cssBlue); }
+
+.skills .yellow {
+  background-color: var(--jsYellow); }
+
+.skills .red {
+  background-color: var(--red); }
+
+.skills .pink {
+  background-color: var(--pink); }
+
+.skills .blue {
+  background-color: var(--jqueryBlue); }
+
+.skills .wp-blue {
+  background-color: var(--wpBlue); }
+
+.skills .post-orange {
+  background-color: var(--postOrange); }
+
+.skills .php-blue {
+  background-color: var(--phpBlue); }
+
+.skills .sql-orange {
+  background-color: var(--sqlOrange); }
+
+.skills .d3-orange {
+  background-color: var(--d3Orange); }
+
+.skills .react-blue {
+  background-color: var(--reactBlue); }
+
+.skills .vue-green {
+  background-color: var(--vueGreen); }
+
+.certs ul {
+  justify-content: center; }
+
+.certs li {
+  margin-left: auto;
+  margin-right: auto; }
+
+.skill-name {
+  background-color: var(--navBg);
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 5px; }
+
+.color-box {
+  box-shadow: 0 0 10px var(--offWhite);
+  opacity: .8; }
+  .color-box:hover {
+    box-shadow: 0 0 20px var(--pureWhite);
+    background-color: var(--lightTeal);
+    text-shadow: 0 0 10px var(--pureWhite);
+    opacity: 1; }
