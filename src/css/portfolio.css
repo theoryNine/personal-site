@@ -53,8 +53,9 @@
     box-shadow: 0 0 90px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
-  .portfolio button.accordion .active {
-    background-color: var(--lightTeal);
-    box-shadow: 0 0 90px var(--borderColor);
+  .portfolio button.accordion.active {
+    border: 1px solid var(--red);
+    background-color: var(--red);
+    box-shadow: 0 0 30px var(--red);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
