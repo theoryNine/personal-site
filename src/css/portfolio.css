@@ -53,8 +53,6 @@
     box-shadow: 0 0 90px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
-  .portfolio button.accordion:focus {
-    border-radius: 360px; }
   .portfolio button.accordion.active {
     border: 1px solid var(--red);
     background-color: var(--red);

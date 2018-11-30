@@ -70,10 +70,6 @@
             opacity: 1;
         }
 
-        &:focus {
-            border-radius: 360px;
-        }
-
         &.active {
             border: 1px solid var(--red);
             background-color: var(--red);
