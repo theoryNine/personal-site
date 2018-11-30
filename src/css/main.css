@@ -38,6 +38,9 @@ section {
 .text-center {
   text-align: center; }
 
+footer .container {
+  background-color: transparent; }
+
 :root {
   --mainFont: var(--offWhite);
   --navBg: var(--darkTeal);
@@ -344,6 +347,3 @@ section {
       box-shadow: 0 0 90px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
-
-.footer .container {
-  background-color: transparent; }
