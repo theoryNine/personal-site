@@ -98,10 +98,6 @@
             font-size: .8rem;
         }
 
-        @media (max-width: 370px) {
-            font-size: .7rem;
-        }
-
         span {
             
             &::after {
@@ -115,15 +111,8 @@
                 transition: var(--transitionSpeed) ease all;
                 opacity: .8;
 
-                @media (max-width: 500px) {
-                    margin-left: 0;
-                    height: .8rem;
-                    width: .8rem;
-                }
-
-                @media (max-width: 370px) {
-                    height: .7rem;
-                    width: .7rem;
+                @media (max-width: 450px) {
+                    display: none;
                 }
             }
         }

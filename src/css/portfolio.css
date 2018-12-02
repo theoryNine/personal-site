@@ -70,9 +70,6 @@
   @media (max-width: 500px) {
     .portfolio button.accordion {
       font-size: .8rem; } }
-  @media (max-width: 370px) {
-    .portfolio button.accordion {
-      font-size: .7rem; } }
   .portfolio button.accordion span::after {
     height: 1rem;
     width: 1rem;
@@ -83,15 +80,9 @@
     margin-left: .3rem;
     transition: var(--transitionSpeed) ease all;
     opacity: .8; }
-    @media (max-width: 500px) {
+    @media (max-width: 450px) {
       .portfolio button.accordion span::after {
-        margin-left: 0;
-        height: .8rem;
-        width: .8rem; } }
-    @media (max-width: 370px) {
-      .portfolio button.accordion span::after {
-        height: .7rem;
-        width: .7rem; } }
+        display: none; } }
 
 .flip::after {
   transform: rotate(-180deg); }
