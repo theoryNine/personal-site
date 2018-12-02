@@ -346,17 +346,14 @@ footer .container {
     background-color: var(--linkedInBlue);
     text-align: center;
     opacity: .8;
-    transition: 1s ease all; }
+    text-decoration: none;
+    transition: 1s ease all;
+    padding: .5rem 0; }
     .contact .social-bar .linkedin:hover {
       background-color: var(--lightTeal);
       box-shadow: 0 0 30px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
-    .contact .social-bar .linkedin p {
-      margin: .5rem 0;
-      padding: 0; }
-    .contact .social-bar .linkedin a {
-      text-decoration: none; }
 
 .contact .contact-form {
   width: 49%; }

@@ -24,22 +24,15 @@
             background-color: var(--linkedInBlue);
             text-align: center;
             opacity: .8;
+            text-decoration: none;
             transition: 1s ease all;
+            padding: .5rem 0;
 
             &:hover {
                 background-color: var(--lightTeal);
                 box-shadow: 0 0 30px var(--borderColor);
                 text-shadow: 0 0 10px var(--pureWhite);
                 opacity: 1;
-            }
-
-            p {
-                margin: .5rem 0;
-                padding: 0;
-            }
-
-            a {
-                text-decoration: none;
             }
         }
     }
