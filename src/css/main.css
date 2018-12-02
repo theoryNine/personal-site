@@ -338,7 +338,7 @@ footer .container {
   justify-content: center; }
   .contact .social-bar .linkedin {
     box-shadow: 0 0 10px var(--linkedInBlue);
-    border: 1px solid var(--borderColor);
+    border: 1px solid var(--linkedInBlue);
     border-radius: 360px;
     letter-spacing: .2rem;
     width: 320px;
