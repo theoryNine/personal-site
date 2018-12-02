@@ -356,6 +356,9 @@ footer .container {
       opacity: 1; }
   @media (max-width: 500px) {
     .portfolio button.accordion {
+      font-size: .8rem; } }
+  @media (max-width: 370px) {
+    .portfolio button.accordion {
       font-size: .7rem; } }
   .portfolio button.accordion span::after {
     height: 1rem;
@@ -369,7 +372,13 @@ footer .container {
     opacity: .8; }
     @media (max-width: 500px) {
       .portfolio button.accordion span::after {
-        display: none; } }
+        margin-left: 0;
+        height: .8rem;
+        width: .8rem; } }
+    @media (max-width: 370px) {
+      .portfolio button.accordion span::after {
+        height: .7rem;
+        width: .7rem; } }
 
 .flip::after {
   transform: rotate(-180deg); }
