@@ -11,11 +11,11 @@ body {
   position: relative; }
 
 .container {
-  width: 90%;
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
-  background-color: black; }
+  width: 90%; }
   .container.boxed {
     border: 1px solid var(--borderColor);
     box-shadow: 0 0 10px var(--borderColor); }
@@ -38,8 +38,8 @@ body {
 section {
   margin-bottom: 1rem; }
   section h3 {
-    padding-bottom: .5rem;
-    border-bottom: 1px solid var(--lightTeal); }
+    border-bottom: 1px solid var(--lightTeal);
+    padding-bottom: .5rem; }
 
 .text-center {
   text-align: center; }

@@ -1,11 +1,11 @@
 .portfolio .container.boxed {
+  align-items: center;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
   .portfolio .container.boxed h3 {
-    width: 100%;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    width: 100%; }
 
 .portfolio .screenshots {
   display: flex;
@@ -15,10 +15,10 @@
     .portfolio .screenshots {
       flex-direction: column; } }
   .portfolio .screenshots .screenshot {
-    opacity: .8;
-    transition: .5s ease all;
     border: 1px solid var(--borderColor);
     box-shadow: 0 0 10px var(--borderColor);
+    opacity: .8;
+    transition: .5s ease all;
     width: 47%; }
     .portfolio .screenshots .screenshot:hover {
       opacity: 1; }
@@ -36,22 +36,22 @@
   width: 95%; }
 
 .portfolio button.accordion {
-  border: 1px solid transparent;
+  align-items: center;
   background-color: var(--darkTeal);
+  border: 1px solid transparent;
+  border-radius: 360px;
   box-shadow: 0 0 10px var(--medTeal);
   color: var(--pureWhite);
   cursor: pointer;
-  font-size: 1rem;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
-  width: 95%;
-  transition: var(--transitionSpeed) ease all;
-  border-radius: 360px;
-  letter-spacing: .2rem;
-  outline: none;
   display: flex;
+  font-size: 1rem;
   justify-content: center;
-  align-items: center; }
+  letter-spacing: .2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 0;
+  transition: var(--transitionSpeed) ease all;
+  width: 95%; }
   .portfolio button.accordion:hover {
     background-color: var(--hoverColor);
     box-shadow: 0 0 40px var(--borderColor);
@@ -60,26 +60,26 @@
     .portfolio button.accordion:hover span::after {
       opacity: 1; }
   .portfolio button.accordion.active {
-    border: 1px solid var(--red);
     background-color: var(--red);
+    border: 1px solid var(--red);
     box-shadow: 0 0 30px var(--red);
-    text-shadow: 0 0 10px var(--pureWhite);
-    opacity: 1; }
+    opacity: 1;
+    text-shadow: 0 0 10px var(--pureWhite); }
     .portfolio button.accordion.active span::after {
       opacity: 1; }
   @media (max-width: 500px) {
     .portfolio button.accordion {
       font-size: .8rem; } }
   .portfolio button.accordion span::after {
-    height: 1rem;
-    width: 1rem;
-    content: "";
     background: url("../images/arrow.svg") center;
     background-size: contain;
-    position: absolute;
+    content: "";
+    height: 1rem;
     margin-left: .3rem;
+    opacity: .8;
+    position: absolute;
     transition: var(--transitionSpeed) ease all;
-    opacity: .8; }
+    width: 1rem; }
     @media (max-width: 450px) {
       .portfolio button.accordion span::after {
         display: none; } }
