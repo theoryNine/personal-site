@@ -55,6 +55,7 @@
       text-shadow: 0 0 10px var(--pureWhite);
       text-transform: uppercase; }
   .contact .contact-form button[type="submit"] {
+    letter-spacing: .2rem;
     background-color: var(--red);
     color: var(--pureWhite);
     border: 1px solid transparent;
@@ -65,7 +66,6 @@
     transition: 1s ease all;
     box-shadow: 0 0 10px var(--red);
     opacity: .8;
-    text-transform: uppercase;
     margin-bottom: 1rem;
     cursor: pointer; }
     .contact .contact-form button[type="submit"]:hover {
