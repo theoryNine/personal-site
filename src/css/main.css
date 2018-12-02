@@ -64,7 +64,8 @@ footer .container {
   --sqlOrange: rgb(234,150,62);
   --d3Orange: rgb(231,138,88);
   --reactBlue: rgb(129,216,227);
-  --vueGreen: rgb(100,181,135); }
+  --vueGreen: rgb(100,181,135);
+  --linkedInBlue: rgb(0, 119, 181); }
 
 .navigation {
   margin-bottom: 1rem; }
@@ -134,7 +135,7 @@ footer .container {
     opacity: 0.8; }
     .hero a button:hover {
       background-color: var(--lightTeal);
-      box-shadow: 0 0 90px var(--borderColor);
+      box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
 
@@ -298,7 +299,7 @@ footer .container {
   letter-spacing: .2rem; }
   .portfolio button.accordion:hover {
     background-color: var(--lightTeal);
-    box-shadow: 0 0 90px var(--borderColor);
+    box-shadow: 0 0 40px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
   .portfolio button.accordion.active {
@@ -310,9 +311,37 @@ footer .container {
 
 .contact .form-map {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.contact .social-bar {
+  border-top: 1px solid var(--borderColor);
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .contact .social-bar .linkedin {
+    border: 1px solid var(--borderColor);
+    border-radius: 360px;
+    letter-spacing: .2rem;
+    width: 320px;
+    max-width: 95%;
+    background-color: var(--linkedInBlue);
+    text-align: center;
+    opacity: .8;
+    transition: 1s ease all; }
+    .contact .social-bar .linkedin:hover {
+      background-color: var(--lightTeal);
+      box-shadow: 0 0 30px var(--borderColor);
+      text-shadow: 0 0 10px var(--pureWhite);
+      opacity: 1; }
+    .contact .social-bar .linkedin p {
+      margin: .5rem 0;
+      padding: 0; }
+    .contact .social-bar .linkedin a {
+      text-decoration: none; }
 
 .contact .contact-form {
   width: 49%; }
@@ -352,6 +381,6 @@ footer .container {
     cursor: pointer; }
     .contact .contact-form button[type="submit"]:hover {
       background-color: var(--lightTeal);
-      box-shadow: 0 0 90px var(--borderColor);
+      box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
