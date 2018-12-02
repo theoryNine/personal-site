@@ -15,6 +15,7 @@
         justify-content: center;
 
         .linkedin {
+            box-shadow: 0 0 10px var(--linkedInBlue);
             border: 1px solid var(--borderColor);
             border-radius: 360px;
             letter-spacing: .2rem;
