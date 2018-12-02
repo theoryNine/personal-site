@@ -266,6 +266,9 @@ footer .container {
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: 5px; }
+  @media (max-width: 450px) {
+    .skills .skill-name {
+      width: 85%; } }
 
 .skills .color-box {
   box-shadow: 0 0 10px var(--medTeal);
