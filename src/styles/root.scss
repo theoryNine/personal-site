@@ -64,3 +64,27 @@ section {
 footer .container {
     background-color: transparent;
 }
+
+.back-to-top {
+    color: var(--pureWhite);
+    bottom: 5%;
+    right: 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: fixed;
+    background-color: var(--darkTeal);
+    padding: 0.8rem;
+    border-radius: 470px;
+    opacity: .8;
+    box-shadow: 0 0 10px var(--medTeal);
+    transition: var(--transitionSpeed) ease all;
+    outline: none;
+    letter-spacing: .1rem;
+
+    &:hover {
+        background-color: var(--hoverColor);
+        box-shadow: 0 0 40px var(--borderColor);
+        text-shadow: 0 0 10px var(--pureWhite);
+        opacity: 1;
+    }
+}
