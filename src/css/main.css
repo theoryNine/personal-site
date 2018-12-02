@@ -375,7 +375,19 @@ footer .container {
       color: var(--offWhite);
       font-size: 1rem;
       padding: .5rem;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      opacity: .8;
+      transition: var(--transitionSpeed) ease all; }
+      .contact .contact-form .form-item input[type="text"]:hover,
+      .contact .contact-form .form-item input[type="email"]:hover,
+      .contact .contact-form .form-item input[type="tel"]:hover,
+      .contact .contact-form .form-item textarea:hover {
+        opacity: 1; }
+      .contact .contact-form .form-item input[type="text"]:focus,
+      .contact .contact-form .form-item input[type="email"]:focus,
+      .contact .contact-form .form-item input[type="tel"]:focus,
+      .contact .contact-form .form-item textarea:focus {
+        opacity: 1; }
     .contact .contact-form .form-item textarea {
       height: 10rem; }
     .contact .contact-form .form-item label {
