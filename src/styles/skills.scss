@@ -92,6 +92,10 @@
 
         a {
             margin-bottom: 0;
+
+            @media (max-width: 950px) {
+                width: 95%;
+            }
         }
 
         ul {
@@ -106,14 +110,14 @@
     
     .skill-name {
         background-color: var(--navBg);
-        width: 65%;
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
         padding-top: .5rem;
         padding-bottom: .5rem;
         border-radius: 5px;
 
-        @media (max-width: 450px) {
+        @media (max-width: 900px) {
             width: 85%;
         }
     }
