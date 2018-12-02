@@ -114,12 +114,18 @@ footer .container {
     letter-spacing: 0.3rem;
     text-shadow: 0 0 5px var(--pureWhite);
     margin-bottom: 1rem; }
+    @media (max-width: 400px) {
+      .hero h1 {
+        font-size: 1.8rem; } }
   .hero h2 {
     line-height: 1;
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0 2px var(--pureWhite);
     margin-top: 1rem; }
+    @media (max-width: 400px) {
+      .hero h2 {
+        font-size: 1.3rem; } }
   .hero div {
     text-align: center; }
   .hero a button {
@@ -151,12 +157,18 @@ footer .container {
   transition: 1s ease all; }
   .about .image:hover {
     opacity: 1; }
+  @media (max-width: 400px) {
+    .about .image {
+      display: none; } }
 
 .about .container {
   display: flex; }
 
 .about .content {
   width: 70%; }
+  @media (max-width: 400px) {
+    .about .content {
+      width: 100%; } }
 
 .skills ul {
   list-style-type: none;

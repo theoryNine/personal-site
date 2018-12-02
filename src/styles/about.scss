@@ -11,6 +11,10 @@
         &:hover {
             opacity: 1;
         }
+
+        @media (max-width: 400px) {
+            display: none;
+        }
     }
 
     .container {
@@ -19,5 +23,9 @@
 
     .content {
         width: 70%;
+
+        @media (max-width: 400px) {
+            width: 100%;
+        }
     }
 }

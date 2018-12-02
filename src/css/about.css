@@ -8,9 +8,15 @@
   transition: 1s ease all; }
   .about .image:hover {
     opacity: 1; }
+  @media (max-width: 400px) {
+    .about .image {
+      display: none; } }
 
 .about .container {
   display: flex; }
 
 .about .content {
   width: 70%; }
+  @media (max-width: 400px) {
+    .about .content {
+      width: 100%; } }

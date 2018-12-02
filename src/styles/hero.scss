@@ -16,6 +16,10 @@
         letter-spacing: 0.3rem;
         text-shadow: 0 0 5px var(--pureWhite);
         margin-bottom: 1rem;
+
+        @media (max-width: 400px) {
+            font-size: 1.8rem;
+        }
     }
 
     h2 {
@@ -24,6 +28,10 @@
         letter-spacing: 0.2rem;
         text-shadow: 0 0 2px var(--pureWhite);
         margin-top: 1rem;
+
+        @media (max-width: 400px) {
+            font-size: 1.3rem;
+        }
     }
 
     div {
