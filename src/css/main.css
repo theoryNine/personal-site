@@ -248,12 +248,15 @@ footer .container {
 .skills .vue-green {
   background-color: var(--vueGreen); }
 
-.skills .certs ul {
-  justify-content: center; }
-
-.skills .certs li {
-  margin-left: auto;
-  margin-right: auto; }
+.skills .certs {
+  border-bottom: 1px solid var(--borderColor); }
+  .skills .certs a {
+    margin-bottom: 0; }
+  .skills .certs ul {
+    justify-content: center; }
+  .skills .certs li {
+    margin-left: auto;
+    margin-right: auto; }
 
 .skills .skill-name {
   background-color: var(--navBg);
