@@ -123,14 +123,13 @@ footer .container {
   .hero h1 {
     font-family: 'Pacifico', cursive;
     line-height: 1;
-    font-size: 3.5rem;
+    font-size: 3.7rem;
     font-weight: 500;
-    letter-spacing: 0.2rem;
     text-shadow: 0 0 5px var(--pureWhite);
     margin-bottom: 1rem; }
     @media (max-width: 400px) {
       .hero h1 {
-        font-size: 2.7rem; } }
+        font-size: 3.1rem; } }
   .hero h2 {
     line-height: 1;
     font-size: 1.5rem;
