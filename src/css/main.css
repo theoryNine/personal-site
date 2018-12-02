@@ -350,6 +350,9 @@ footer .container {
     box-shadow: 0 0 30px var(--red);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
+  @media (max-width: 500px) {
+    .portfolio button.accordion {
+      font-size: .7rem; } }
   .portfolio button.accordion span::after {
     height: 1rem;
     width: 1rem;
@@ -359,6 +362,9 @@ footer .container {
     position: absolute;
     margin-left: .3rem;
     transition: var(--transitionSpeed) ease all; }
+    @media (max-width: 500px) {
+      .portfolio button.accordion span::after {
+        display: none; } }
 
 .flip::after {
   transform: rotate(180deg); }
