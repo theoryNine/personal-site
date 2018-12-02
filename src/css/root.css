@@ -23,6 +23,9 @@ body {
 .uppercase {
   text-transform: uppercase; }
 
+.lowercase {
+  text-transform: lowercase; }
+
 .container h3,
 .container p,
 .container ul {
