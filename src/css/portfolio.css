@@ -33,7 +33,7 @@
 .portfolio .panel {
   max-height: 0;
   overflow: hidden;
-  transition: all .2s ease-out;
+  transition: all var(--transitionSpeed) ease;
   width: 95%; }
 
 .portfolio button.accordion {
@@ -45,7 +45,7 @@
   padding: 1rem 0;
   margin-bottom: 1rem;
   width: 95%;
-  transition: .7s ease all;
+  transition: var(--transitionSpeed) ease all;
   border-radius: 360px;
   letter-spacing: .2rem; }
   .portfolio button.accordion:hover {

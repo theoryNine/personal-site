@@ -67,6 +67,9 @@ footer .container {
   --vueGreen: rgb(100,181,135);
   --linkedInBlue: rgb(0, 119, 181); }
 
+:root {
+  --transitionSpeed: .5s; }
+
 .navigation {
   margin-bottom: 1rem; }
   .navigation .nav-bar {
@@ -136,7 +139,7 @@ footer .container {
     cursor: pointer;
     box-shadow: 0 0 10px var(--red);
     padding: 0.5rem 1rem;
-    transition: 1s ease all;
+    transition: var(--transitionSpeed) ease all;
     margin-bottom: 1rem;
     opacity: 0.8;
     letter-spacing: .2rem;
@@ -178,7 +181,7 @@ footer .container {
   .skills ul li {
     text-align: center;
     opacity: .8;
-    transition: .5s ease all;
+    transition: var(--transitionSpeed) ease all;
     border-radius: 10px; }
     .skills ul li:hover {
       opacity: 1; }
@@ -296,7 +299,7 @@ footer .container {
 .portfolio .panel {
   max-height: 0;
   overflow: hidden;
-  transition: all .2s ease-out;
+  transition: all var(--transitionSpeed) ease;
   width: 95%; }
 
 .portfolio button.accordion {
@@ -308,7 +311,7 @@ footer .container {
   padding: 1rem 0;
   margin-bottom: 1rem;
   width: 95%;
-  transition: .7s ease all;
+  transition: var(--transitionSpeed) ease all;
   border-radius: 360px;
   letter-spacing: .2rem; }
   .portfolio button.accordion:hover {
@@ -346,7 +349,7 @@ footer .container {
     text-align: center;
     opacity: .8;
     text-decoration: none;
-    transition: 1s ease all;
+    transition: var(--transitionSpeed) ease all;
     padding: .5rem 0; }
     .contact .social-bar .linkedin:hover {
       background-color: var(--lightTeal);
@@ -385,7 +388,7 @@ footer .container {
     font-size: 1rem;
     width: 200px;
     padding: .5rem 0;
-    transition: 1s ease all;
+    transition: var(--transitionSpeed) ease all;
     box-shadow: 0 0 10px var(--red);
     opacity: .8;
     margin-bottom: 1rem;

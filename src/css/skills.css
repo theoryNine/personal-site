@@ -6,7 +6,7 @@
   .skills ul li {
     text-align: center;
     opacity: .8;
-    transition: .5s ease all;
+    transition: var(--transitionSpeed) ease all;
     border-radius: 10px; }
     .skills ul li:hover {
       opacity: 1; }

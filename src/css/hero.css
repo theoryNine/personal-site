@@ -37,7 +37,7 @@
     cursor: pointer;
     box-shadow: 0 0 10px var(--red);
     padding: 0.5rem 1rem;
-    transition: 1s ease all;
+    transition: var(--transitionSpeed) ease all;
     margin-bottom: 1rem;
     opacity: 0.8;
     letter-spacing: .2rem;
