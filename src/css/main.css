@@ -26,6 +26,9 @@ body {
 .lowercase {
   text-transform: lowercase; }
 
+.light {
+  font-weight: 200; }
+
 .container h3,
 .container p,
 .container ul {
