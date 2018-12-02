@@ -108,12 +108,12 @@
     }
     
     .color-box {
-        box-shadow: 0 0 10px var(--offWhite);
+        box-shadow: 0 0 10px var(--medTeal);
         opacity: .8;
     
         &:hover {
-            box-shadow: 0 0 20px var(--lightTeal);
-            background-color: var(--lightTeal);
+            box-shadow: 0 0 20px var(--hoverColor);
+            background-color: var(--hoverColor);
             text-shadow: 0 0 10px var(--pureWhite);
             opacity: 1;
         }
