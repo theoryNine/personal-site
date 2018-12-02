@@ -257,7 +257,7 @@ footer .container {
     margin-bottom: 0; }
     @media (max-width: 950px) {
       .skills .certs a {
-        width: 95%; } }
+        width: 100%; } }
   .skills .certs ul {
     justify-content: center; }
   .skills .certs li {
