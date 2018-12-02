@@ -277,8 +277,7 @@ footer .container {
 .portfolio .screenshots {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 1rem; }
+  justify-content: space-evenly; }
   @media (max-width: 450px) {
     .portfolio .screenshots {
       flex-direction: column; } }
