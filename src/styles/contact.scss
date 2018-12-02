@@ -96,6 +96,16 @@
                 text-shadow: 0 0 10px var(--pureWhite);
                 opacity: 1;
             }
+
+            @media (max-width: 450px) {
+                width: 95%;
+            }
+        }
+
+        .form-buttons {
+            @media (max-width: 450px) {
+                text-align: center;
+            }
         }
     }
 }

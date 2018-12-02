@@ -384,3 +384,9 @@ footer .container {
       box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
+    @media (max-width: 450px) {
+      .contact .contact-form button[type="submit"] {
+        width: 95%; } }
+  @media (max-width: 450px) {
+    .contact .contact-form .form-buttons {
+      text-align: center; } }
