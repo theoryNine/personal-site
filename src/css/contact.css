@@ -10,7 +10,17 @@
   padding: 1rem 0;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
+  @media (max-width: 500px) {
+    .contact .social-bar {
+      flex-direction: column; } }
+  .contact .social-bar::before {
+    content: "visit my:";
+    margin-right: .8rem;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    font-family: 'Pacifico', cursive; }
   .contact .social-bar .linkedin {
     box-shadow: 0 0 10px var(--linkedInBlue);
     border-radius: 360px;
