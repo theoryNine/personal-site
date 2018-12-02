@@ -378,16 +378,15 @@ footer .container {
       margin-bottom: 1rem;
       opacity: .8;
       transition: var(--transitionSpeed) ease all; }
-      .contact .contact-form .form-item input[type="text"]:hover,
+      .contact .contact-form .form-item input[type="text"]:hover, .contact .contact-form .form-item input[type="text"]:focus,
       .contact .contact-form .form-item input[type="email"]:hover,
-      .contact .contact-form .form-item input[type="tel"]:hover,
-      .contact .contact-form .form-item textarea:hover {
-        opacity: 1; }
-      .contact .contact-form .form-item input[type="text"]:focus,
       .contact .contact-form .form-item input[type="email"]:focus,
+      .contact .contact-form .form-item input[type="tel"]:hover,
       .contact .contact-form .form-item input[type="tel"]:focus,
+      .contact .contact-form .form-item textarea:hover,
       .contact .contact-form .form-item textarea:focus {
-        opacity: 1; }
+        opacity: 1;
+        box-shadow: 0 0 40px var(--borderColor); }
     .contact .contact-form .form-item textarea {
       height: 10rem; }
     .contact .contact-form .form-item label {

@@ -60,12 +60,10 @@
                 opacity: .8;
                 transition: var(--transitionSpeed) ease all;
 
-                &:hover {
-                    opacity: 1;
-                }
-
+                &:hover,
                 &:focus {
                     opacity: 1;
+                    box-shadow: 0 0 40px var(--borderColor);
                 }
             }
 
