@@ -21,6 +21,9 @@
     letter-spacing: .1rem;
     font-size: 1.3rem;
     font-family: 'Pacifico', cursive; }
+    @media (max-width: 500px) {
+      .contact .social-bar::before {
+        margin-bottom: 1rem; } }
   .contact .social-bar .linkedin {
     box-shadow: 0 0 10px var(--linkedInBlue);
     border-radius: 360px;
