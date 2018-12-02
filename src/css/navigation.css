@@ -17,7 +17,7 @@
         width: 25%;
         transition: 1s all ease; }
         .navigation .nav-bar ul a:hover {
-          background-color: var(--lightTeal);
+          background-color: var(--hoverColor);
           box-shadow: 0 0 10px var(--borderColor);
           text-shadow: 0 0 10px var(--pureWhite); }
         .navigation .nav-bar ul a li {

@@ -43,7 +43,7 @@
     letter-spacing: .2rem;
     font-size: 1rem; }
     .hero a button:hover {
-      background-color: var(--lightTeal);
+      background-color: var(--hoverColor);
       box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }

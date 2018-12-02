@@ -46,6 +46,7 @@ footer .container {
   --navBg: var(--darkTeal);
   --borderColor: var(--medTeal);
   --bodyBg: rgb(12,6,17);
+  --hoverColor: var(--lightTeal);
   --offWhite: rgb(204,208,213);
   --pureWhite: rgb(255,255,255);
   --lightTeal: rgb(39, 96, 112);
@@ -89,7 +90,7 @@ footer .container {
         width: 25%;
         transition: 1s all ease; }
         .navigation .nav-bar ul a:hover {
-          background-color: var(--lightTeal);
+          background-color: var(--hoverColor);
           box-shadow: 0 0 10px var(--borderColor);
           text-shadow: 0 0 10px var(--pureWhite); }
         .navigation .nav-bar ul a li {
@@ -145,7 +146,7 @@ footer .container {
     letter-spacing: .2rem;
     font-size: 1rem; }
     .hero a button:hover {
-      background-color: var(--lightTeal);
+      background-color: var(--hoverColor);
       box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
@@ -315,7 +316,7 @@ footer .container {
   border-radius: 360px;
   letter-spacing: .2rem; }
   .portfolio button.accordion:hover {
-    background-color: var(--lightTeal);
+    background-color: var(--hoverColor);
     box-shadow: 0 0 40px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
@@ -352,7 +353,7 @@ footer .container {
     transition: var(--transitionSpeed) ease all;
     padding: .5rem 0; }
     .contact .social-bar .linkedin:hover {
-      background-color: var(--lightTeal);
+      background-color: var(--hoverColor);
       box-shadow: 0 0 30px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
@@ -394,7 +395,7 @@ footer .container {
     margin-bottom: 1rem;
     cursor: pointer; }
     .contact .contact-form button[type="submit"]:hover {
-      background-color: var(--lightTeal);
+      background-color: var(--hoverColor);
       box-shadow: 0 0 40px var(--borderColor);
       text-shadow: 0 0 10px var(--pureWhite);
       opacity: 1; }
