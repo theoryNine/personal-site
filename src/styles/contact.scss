@@ -70,6 +70,7 @@
             input[type="tel"],
             textarea {
                 border: 1px solid var(--borderColor);
+                border-radius: 0;
                 background: var(--darkTeal);
                 color: var(--offWhite);
                 font-size: 1rem;
