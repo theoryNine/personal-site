@@ -344,12 +344,16 @@ footer .container {
     box-shadow: 0 0 40px var(--borderColor);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
+    .portfolio button.accordion:hover span::after {
+      opacity: 1; }
   .portfolio button.accordion.active {
     border: 1px solid var(--red);
     background-color: var(--red);
     box-shadow: 0 0 30px var(--red);
     text-shadow: 0 0 10px var(--pureWhite);
     opacity: 1; }
+    .portfolio button.accordion.active span::after {
+      opacity: 1; }
   @media (max-width: 500px) {
     .portfolio button.accordion {
       font-size: .7rem; } }
@@ -361,7 +365,8 @@ footer .container {
     background-size: contain;
     position: absolute;
     margin-left: .3rem;
-    transition: var(--transitionSpeed) ease all; }
+    transition: var(--transitionSpeed) ease all;
+    opacity: .8; }
     @media (max-width: 500px) {
       .portfolio button.accordion span::after {
         display: none; } }

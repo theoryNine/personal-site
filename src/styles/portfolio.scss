@@ -72,6 +72,12 @@
             box-shadow: 0 0 40px var(--borderColor);
             text-shadow: 0 0 10px var(--pureWhite);
             opacity: 1;
+
+            span {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
 
         &.active {
@@ -80,6 +86,12 @@
             box-shadow: 0 0 30px var(--red);
             text-shadow: 0 0 10px var(--pureWhite);
             opacity: 1;
+
+            span {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
 
         @media (max-width: 500px) {
@@ -97,6 +109,7 @@
                 position: absolute;
                 margin-left: .3rem;
                 transition: var(--transitionSpeed) ease all;
+                opacity: .8;
 
                 @media (max-width: 500px) {
                     display: none;
