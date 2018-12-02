@@ -372,7 +372,7 @@ footer .container {
         display: none; } }
 
 .flip::after {
-  transform: rotate(180deg); }
+  transform: rotate(-180deg); }
 
 .contact .form-map {
   display: flex;
