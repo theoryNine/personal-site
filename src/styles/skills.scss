@@ -10,6 +10,7 @@
             opacity: .8;
             transition: var(--transitionSpeed) ease all;
             border-radius: 10px;
+            outline: none;
 
             &:hover {
                 opacity: 1;

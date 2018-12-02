@@ -41,7 +41,8 @@
     margin-bottom: 1rem;
     opacity: 0.8;
     letter-spacing: .2rem;
-    font-size: 1rem; }
+    font-size: 1rem;
+    outline: none; }
     .hero a button:hover {
       background-color: var(--hoverColor);
       box-shadow: 0 0 40px var(--borderColor);
