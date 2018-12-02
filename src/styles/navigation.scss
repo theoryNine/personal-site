@@ -14,11 +14,11 @@
             padding-right: 0;
     
             a {
-                text-transform: uppercase;
                 letter-spacing: 0.2rem;
                 text-decoration: none;
-                width: 25%;
+                text-transform: uppercase;
                 transition: 1s all ease;
+                width: 25%;
     
                 &:hover {
                     background-color: var(--hoverColor);

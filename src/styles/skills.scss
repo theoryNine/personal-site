@@ -1,16 +1,16 @@
 .skills {
     ul {
-        list-style-type: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        list-style-type: none;
 
         li {
-            text-align: center;
-            opacity: .8;
-            transition: var(--transitionSpeed) ease all;
             border-radius: 10px;
+            opacity: .8;
             outline: none;
+            text-align: center;
+            transition: var(--transitionSpeed) ease all;
 
             &:hover {
                 opacity: 1;
@@ -19,9 +19,9 @@
     }
 
     a {
+        margin-bottom: 1rem;
         text-decoration: none;
         width: 32%;
-        margin-bottom: 1rem;
 
         @media (max-width: 1200px) {
             width: 48%;
@@ -32,32 +32,32 @@
         }
     }
 
-    .orange {
-        background-color: var(--adobeOrange);
+    .blue {
+        background-color: var(--jqueryBlue);
+    }
+
+    .css-blue {
+        background-color: var(--cssBlue);
     }
     
     .light-orange {
         background-color: var(--htmlOrange);
     }
-    
-    .css-blue {
-        background-color: var(--cssBlue);
+
+    .orange {
+        background-color: var(--adobeOrange);
     }
-    
-    .yellow {
-        background-color: var(--jsYellow);
-    }
-    
+
     .red {
         background-color: var(--red);
     }
-    
+
     .pink {
         background-color: var(--pink);
     }
     
-    .blue {
-        background-color: var(--jqueryBlue);
+    .yellow {
+        background-color: var(--jsYellow);
     }
     
     .wp-blue {
@@ -110,12 +110,12 @@
     
     .skill-name {
         background-color: var(--navBg);
-        width: 75%;
+        border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
-        padding-top: .5rem;
         padding-bottom: .5rem;
-        border-radius: 5px;
+        padding-top: .5rem;
+        width: 75%;
 
         @media (max-width: 900px) {
             width: 85%;
@@ -127,10 +127,10 @@
         opacity: .8;
     
         &:hover {
-            box-shadow: 0 0 20px var(--hoverColor);
             background-color: var(--hoverColor);
-            text-shadow: 0 0 10px var(--pureWhite);
+            box-shadow: 0 0 20px var(--hoverColor);
             opacity: 1;
+            text-shadow: 0 0 10px var(--pureWhite);
         }
     }
 }
