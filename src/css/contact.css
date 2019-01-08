@@ -95,7 +95,6 @@
     width: 200px; }
     .contact .contact-form button[type="submit"]:hover {
       background-color: var(--hoverColor);
-      box-shadow: 0 0 40px var(--borderColor);
       opacity: 1;
       text-shadow: 0 0 10px var(--pureWhite); }
     @media (max-width: 450px) {
