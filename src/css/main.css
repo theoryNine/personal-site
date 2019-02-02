@@ -75,7 +75,8 @@ footer .container {
   --reactBlue: rgb(129,216,227);
   --sqlOrange: rgb(234,150,62);
   --vueGreen: rgb(100,181,135);
-  --wpBlue: rgb(19, 53, 165); }
+  --wpBlue: rgb(19, 53, 165);
+  --springGreen: #68bd45; }
 
 :root {
   --transitionSpeed: .5s; }
@@ -250,6 +251,9 @@ footer .container {
 
 .skills .vue-green {
   background-color: var(--vueGreen); }
+
+.skills .spring-green {
+  background-color: var(--springGreen); }
 
 .skills .certs {
   border-bottom: 1px solid var(--borderColor); }

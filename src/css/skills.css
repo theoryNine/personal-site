@@ -65,6 +65,9 @@
 .skills .vue-green {
   background-color: var(--vueGreen); }
 
+.skills .spring-green {
+  background-color: var(--springGreen); }
+
 .skills .certs {
   border-bottom: 1px solid var(--borderColor); }
   .skills .certs a {
